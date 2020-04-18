@@ -1,0 +1,62 @@
+
+form {
+    margin-left: 1.5em;
+}
+
+textarea {
+    border-radius: 8px;
+    padding: .5em;
+}
+
+td, tr {
+    border: 1px solid;
+    vertical-align: baseline;
+}
+
+strong {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table thead tr:nth-child(1){
+    color: #ccc;
+    background-color: #123456;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: #ffff7a;
+}
+
+table td {
+    max-width: 200px;
+    padding: .25em;
+}
+
+.marker {
+    color: #eb4034;
+    font-weight: bold;
+}
+/* 
+.loading {
+    width: 15px;
+    height: 15px;
+    border: 5px solid #1c1c3f;
+    border-right: 5px solid transparent;
+    border-radius: 30px;
+    animation: loading 1s linear infinite;
+    margin-left: 2em;
+}
+
+@keyframes loading {
+    to {
+    }
+    from {
+        transform: rotate(360deg);
+        transform-origin: 50% 50%;
+    }
+} */
