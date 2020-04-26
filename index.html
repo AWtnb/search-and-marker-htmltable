@@ -46,9 +46,8 @@
 
 <p>⑤ <input type="button" value="着色！" onclick="clickBtn_mark()" /></p>
 
-<!-- <div id="loading" class="loading" style="display:none;"></div> -->
 
-<p>⑥ <input type="button" value="結果をコピー！" onclick="copyResult()" /></p>
+<p>⑥ <input type="button" value="表のまま結果をコピー" onclick="copyResult()" /> <span style="color:#555"> or <input type="button" value="印刷用に出力" onclick="showPrintPage()" /></span></p>
 
 <hr>
 
@@ -112,10 +111,8 @@ function import2table(lines) {
 
 function clickBtn_mark() {
     const colIndexToMark = document.form_markCol.select1.value;
-    // document.getElementById("loading").style.display = "block";
     alert("↓「OK」を押すと処理を開始します。")
     decorateTableCol(colIndexToMark);
-    // document.getElementById("loading").style.display = "none";
 }
 
 function addSpanTagToCell(tableElement, r, c, patterns){
@@ -172,6 +169,10 @@ function copyResult(){
     alert("コピーしました！");
 }
 
+function showPrintPage() {
+    const url = './print_page.html';
+    window.open(url);
+}
 </script>
 
 </body>
