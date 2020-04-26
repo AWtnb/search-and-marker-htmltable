@@ -41,22 +41,3 @@ table td {
     color: #eb4034;
     font-weight: bold;
 }
-/* 
-.loading {
-    width: 15px;
-    height: 15px;
-    border: 5px solid #1c1c3f;
-    border-right: 5px solid transparent;
-    border-radius: 30px;
-    animation: loading 1s linear infinite;
-    margin-left: 2em;
-}
-
-@keyframes loading {
-    to {
-    }
-    from {
-        transform: rotate(360deg);
-        transform-origin: 50% 50%;
-    }
-} */
